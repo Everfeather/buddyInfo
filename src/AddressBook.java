@@ -7,7 +7,7 @@ public class AddressBook  {
         BuddyInfo newBuddy = new BuddyInfo(name, age);
         buddyArray.add(newBuddy);
     }
-
+    //second commit comment
     public void removeBuddy(int position){
         buddyArray.remove(position);
     }
