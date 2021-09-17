@@ -3,13 +3,12 @@ import java.util.ArrayList;
 public class AddressBook  {
     private ArrayList<BuddyInfo> buddyArray = new ArrayList<>();
 
-    public void addBuddy(String name, int age) {
-        BuddyInfo newBuddy = new BuddyInfo(name, age);
-        buddyArray.add(newBuddy);
+    public void addBuddy(BuddyInfo buddy) {
+        buddyArray.add(buddy);
     }
     //second commit comment
-    public void removeBuddy(int position){
-        buddyArray.remove(position);
+    public void removeBuddy(BuddyInfo buddy){
+        buddyArray.remove(buddy);
     }
 
 }
